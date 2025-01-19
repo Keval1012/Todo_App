@@ -1,15 +1,20 @@
 export const initialTodos = [
   {
     id: 1,
-    title: "Buy groceries",
-    description: "Milk, Bread, Eggs",
-    completed: false,
+    title: "Todo - 1",
+    description: "This is my first Todo",
+    completed: false
   },
   {
     id: 2,
-    title: "Read a book",
-    description: 'Start "Atomic Habits"',
-    completed: false,
+    title: "Todo - 2",
+    description: "This is my second Todo",
+    completed: false
   },
-  { id: 3, title: "Clean the house", description: "", completed: true }
+  { 
+    id: 3,
+    title: "Todo - 3",
+    description: "",
+    completed: true
+  }
 ];
